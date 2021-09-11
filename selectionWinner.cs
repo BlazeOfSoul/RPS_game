@@ -20,12 +20,12 @@ namespace itransition_labs_3
                 }
                 if (temp == computerTurn)
                 {
-                    return "1";
+                    return "-1";
                 }
                 rangeCheck++;
                 temp++;
             }
-            return "-1";
+            return "1";
         }
     }
 }

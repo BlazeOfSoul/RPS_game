@@ -30,10 +30,10 @@ namespace itransition_labs_3
                         switch (tempWinner.returnWinner(turns, i, j - 1))
                         {
                             case "1":
-                                tempString[j] = "LOSE";
+                                tempString[j] = "WIN";
                                 break;
                             case "-1":
-                                tempString[j] = "WIN";
+                                tempString[j] = "LOSE";
                                 break;
                             case "0":
                                 tempString[j] = "DRAW";
