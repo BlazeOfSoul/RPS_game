@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "itransition_labs_3": {
+      "commandName": "Project",
+      "commandLineArgs": "rock paper scissors",
+      "nativeDebugging": false
+    }
+  }
+}
