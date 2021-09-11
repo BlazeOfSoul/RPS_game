@@ -22,7 +22,6 @@ namespace itransition_labs_3
                 bool flag = true;
                 foreach(var turn in args)
                 {
-                    //int count = Regex.Matches(stringTurns, turn).Count;
                     if(args.Where(p => p == turn).Count() >= 2)
                     {
                         throw new Exception("You have two identical moves, enter all moves different");
